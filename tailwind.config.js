@@ -7,8 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        customPurple: '#7808d0',
+      fontFamily: {
+        anton: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
