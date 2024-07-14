@@ -11,7 +11,7 @@ function nav() {
         <li><a href="">Contact Us</a></li>
       </ul>
       <ul className='flex ml-auto'>
-        <li><button><span className='uppercase font-black'>Buy Pepsi Products</span></button></li>
+        <li><button className='nav-button'><span className='uppercase font-black'>Buy Pepsi Products</span></button></li>
       </ul>
     </nav>
   </div>
