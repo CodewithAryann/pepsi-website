@@ -127,7 +127,7 @@ body {
 .btn-12 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #000;
+  background-color: #ffffff;
   background-image: none;
   color: #fff;
   cursor: pointer;
@@ -161,26 +161,31 @@ body {
 }
 
 .btn-12 {
-  /* border-radius: 99rem; */
-  /* border-width: 2px; */
   overflow: hidden;
   padding: 0.8rem 3rem;
   position: relative;
+  width: 29.492vw;
+        height: 7.520vw;
+        font-size: 3.418vw;
 }
 
 .btn-12 span {
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
+  color: black;
+  z-index: 10;
+  /* display: contents; */
+  position: relative;
 }
 
 .btn-12:after,
 .btn-12:before {
   background: linear-gradient(
     90deg,
-    #fff 25%,
+    #0025ff 25%,
     transparent 0,
     transparent 50%,
-    #fff 0,
-    #fff 75%,
+    #0025ff 0,
+    #0025ff 75%,
     transparent 0
   );
   content: "";
@@ -196,11 +201,11 @@ body {
     90deg,
     transparent 0,
     transparent 25%,
-    #fff 0,
-    #fff 50%,
+    #0025ff 0,
+    #0025ff 50%,
     transparent 0,
     transparent 75%,
-    #fff 0
+    #0025ff 0
   );
   z-index: -1;
 }
@@ -208,4 +213,7 @@ body {
 .btn-12:hover:after,
 .btn-12:hover:before {
   --progress: 0;
+}
+.btn-12 span:hover{
+  color: #ffffff;
 }
