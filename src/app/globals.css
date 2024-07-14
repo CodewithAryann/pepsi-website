@@ -36,7 +36,7 @@ button {
   outline: none;
   cursor: pointer;
   border: none;
-  padding: 0.9rem 2rem;
+  padding: 10px 2rem;
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -47,7 +47,7 @@ button {
   font-size: 17px;
   border-radius: 500px;
   overflow: hidden;
-  background: #66ff66;
+  background: #ffffff;
   color: ghostwhite;
  }
  
