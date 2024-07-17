@@ -3,6 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 import { gsap } from "gsap";
+import { IoClose } from "react-icons/io5";
 
 function Nav() {
   const [showProducts, setShowProducts] = useState(false);
@@ -40,7 +41,7 @@ function Nav() {
         className={`top-0 left-0 w-full bg-[#0025ff] text-white flex flex-col justify-center items-center z-50 ${showProducts ? 'flex' : 'hidden'}`}
         style={{ position: 'fixed', overflowY: 'auto', top: '0', bottom: '0', left: '0', right: '0', scrollbarWidth: 'none', paddingRight: '15px'}}
       >
-        <button onClick={toggleProducts} className='absolute top-4 right-4 text-white font-bold'>Close</button>
+        <button onClick={toggleProducts} className='absolute top-4 right-4 text-white font-bold text-[40px]'><IoClose /></button>
         <h1 className="absolute top-8 text-white text-4xl font-bold uppercase text-center">Pepsi Products</h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8 w-full mt-[60vw] uppercase">
           <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
