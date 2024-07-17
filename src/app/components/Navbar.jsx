@@ -74,23 +74,23 @@ function Nav() {
             <p className="mt-2 font-bold">Pepsi Wild Cherry</p>
           </div>
           <div className="text-center">
-            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44340_EC_Front.png" alt="Pepsi Wild Cherry" />
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44340_EC_Front.png" alt="Diet Pepsi Wild Cherry" />
             <p className="mt-2 font-bold">Diet Pepsi Wild Cherry</p>
           </div>
           <div className="text-center">
-            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44346_Titan_PZWC_Can_12oz_FR.png" alt="Pepsi Wild Cherry" />
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44346_Titan_PZWC_Can_12oz_FR.png" alt="Pepsi Zero Sugar Wild Cherry" />
             <p className="mt-2 font-bold">Pepsi Zero Sugar Wild Cherry</p>
           </div>
           <div className="text-center">
-            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44337_Titan_CFP_Can_12oz_FR.png" alt="Pepsi Wild Cherry" />
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44337_Titan_CFP_Can_12oz_FR.png" alt="Pepsi Caffeine Free" />
             <p className="mt-2 font-bold">Pepsi Caffeine Free</p>
           </div>
           <div className="text-center">
-            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44336_Titan_CFDP_Can_12oz_FR.png" alt="Pepsi Wild Cherry" />
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/44336_Titan_CFDP_Can_12oz_FR.png" alt="Diet Pepsi Caffeine Free" />
             <p className="mt-2 font-bold">Diet Pepsi Caffeine Free</p>
           </div>
           <div className="text-center">
-            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/46948-titan-prs-can-12-oz-d-1-fr.png" alt="Pepsi Wild Cherry" />
+            <img src="https://www.pepsi.com/en-us/refresh082123/images/cans/46948-titan-prs-can-12-oz-d-1-fr.png" alt="Pepsi Real Sugar" />
             <p className="mt-2 font-bold">Pepsi Real Sugar</p>
           </div>
         </div>
