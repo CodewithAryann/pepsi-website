@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='w-full mt-10'>
+    <div className='w-full mt-10 '>
       <footer class="footer">
          <div class="footer__linklist-mobile_container">
             <div class="footer__logo_refresh">
@@ -48,7 +48,7 @@ function Footer() {
             </div>
             <ul class="footer__linklist">
                <li class="footer__link-itemlink" data-gtm-category="Footer" data-gtm-action="CTA" data-gtm-label="Contact Us">
-                  <a class="footer__link-item" href="https://contact.pepsico.com/pepsi" target="_blank">CONTACT US</a>
+                  <a class="footer__link-item"  href="https://contact.pepsico.com/pepsi" target="_blank">CONTACT US</a>
                </li>
                <li class="footer__link-itemlink" data-gtm-category="Footer" data-gtm-action="CTA" data-gtm-label="Terms &amp; Conditions">
                   <a class="footer__link-item" href="https://www.pepsi.com/en-us/terms" target="_blank">TERMS &amp;
