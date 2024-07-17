@@ -355,16 +355,6 @@ body {
   height: 101px;
 }
 
-/* .footer .footer__logo_refresh { 
-  transition: transform .7s ease-in-out;
-  animation-iteration-count: 0;
-}
-.footer .footer__logo_refresh:hover { 
-  transform: scale(.5); 
-} */
-
-
-
  .footer__logo_refresh:hover,.navigation__logo:hover {
   animation: bounceOut 0.5s linear;
   animation-iteration-count: infinite;
@@ -504,7 +494,6 @@ body {
 
   .footer .footer__container {
     height: 25%;
-    /*border-top: 1px solid hsla(0, 0%, 100%, .5);*/
     justify-content: center;
 
   }
@@ -596,4 +585,10 @@ body {
   .footer .footer__link-item {
     margin-bottom: 5%
   }
+}
+
+.item:hover{
+  color: #0025ff;
+  cursor: pointer;
+
 }

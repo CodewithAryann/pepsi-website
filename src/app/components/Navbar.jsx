@@ -41,9 +41,9 @@ function Nav() {
         style={{ position: 'fixed', overflowY: 'auto', top: '0', bottom: '0', left: '0', right: '0', scrollbarWidth: 'none', paddingRight: '15px'}}
       >
         <button onClick={toggleProducts} className='absolute top-4 right-4 text-white font-bold'>Close</button>
-        <h1 className="absolute top-8 text-white text-3xl font-bold">Pepsi Products</h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8 w-full mt-[60vw]">
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+        <h1 className="absolute top-8 text-white text-4xl font-bold uppercase text-center">Pepsi Products</h1>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8 w-full mt-[60vw] uppercase">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -53,7 +53,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Zero Sugar</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -63,7 +63,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Diet Pepsi</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -73,7 +73,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Nitro Pepsi Vanilla</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -83,7 +83,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Nitro Pepsi</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[27%]">
               <img
@@ -93,7 +93,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Mango</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -103,7 +103,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Zero Sugar Mango</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -113,7 +113,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Wild Cherry</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -123,7 +123,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Diet Pepsi Wild Cherry</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -133,7 +133,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Zero Sugar Wild Cherry</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -143,7 +143,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Caffeine Free</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -153,7 +153,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Diet Pepsi Caffeine Free</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
@@ -163,7 +163,7 @@ function Nav() {
               />
             </div>
           </div>
-          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+          <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi Real Sugar</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
