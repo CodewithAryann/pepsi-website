@@ -76,11 +76,11 @@ function Nav() {
           </div>
           <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Nitro Pepsi Vanilla</p>
-            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
+            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[29%]">
               <img
                 src="https://www.pepsi.com/en-us/refresh082123/images/cans/Nitro_Can_for_4pk_Cart_FD_Vanilla.png"
                 alt="Nitro Pepsi Vanilla"
-                className="absolute inset-0 h-full object-cover w-[50%]"
+                className="absolute inset-0 h-full object-cover w-[44%]"
               />
             </div>
           </div>
