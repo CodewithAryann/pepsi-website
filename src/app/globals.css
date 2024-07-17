@@ -250,31 +250,31 @@ body {
   opacity: .9;
   transition: transform 0.3s ease-in-out;
 }
-.social-item.facebook-link::after {
-  background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg') no-repeat 0 0;
-}
 
-/* YouTube Icon */
-.social-item.youtube-link::after {
-  background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg') no-repeat 0 0;
-}
-
-/* TikTok Icon */
-.social-item.tiktok-link::after {
-  background: url('') no-repeat 0 0;
-}
-
-/* Instagram Icon */
 .social-item.instagram-link::after {
   background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg') no-repeat 0 0;
 }
+
 .social-item.x-link::after {
   background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-x.svg') no-repeat 0 0;
 }
 
+.social-item.facebook-link::after {
+  background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg') no-repeat 0 0;
+}
 
+.social-item.youtube-link::after {
+  background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-youtube.svg') no-repeat 0 0;
+}
 
-/* Ensures the image does not overflow its container */
+.social-item.tiktok-link::after {
+  background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-tiktok.svg') no-repeat 0 0;
+}
+
+.social-item.thread-link::after {
+  background: url('https://www.pepsi.com/en-us/refresh082123/images/social/icon-threads.svg') no-repeat 0 0;
+}
+
 .social-item {
   overflow: hidden;
   position: relative;
@@ -285,37 +285,31 @@ body {
   transform-origin: center;
 }
 
-/* Instagram Icon */
 .social-item:hover .instagram-icon {
   filter: brightness(.6);
   transform: scale(1.15) rotate(5deg);
 }
 
-/* Twitter Icon */
 .social-item:hover .twitter-icon {
   filter: brightness(.6);
   transform: scale(1.15) rotate(5deg);
 }
 
-/* Facebook Icon */
 .social-item:hover .facebook-icon {
   filter: brightness(.6);
   transform: scale(1.15) rotate(5deg);
 }
 
-/* Youtube Icon */
 .social-item:hover .youtube-icon {
   filter: brightness(.6);
   transform: scale(1.15) rotate(5deg);
 }
 
-/* TikTok Icon */
 .social-item:hover .tiktok-icon {
   filter: brightness(.6);
   transform: scale(1.15) rotate(5deg);
 }
 
-/* Threads Icon */
 .social-item:hover .threads-icon {
   filter: brightness(.6);
   transform: scale(1.15) rotate(5deg);

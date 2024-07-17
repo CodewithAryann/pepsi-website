@@ -10,7 +10,7 @@ function Stayconnected() {
       >
         STAY ON THE PULSE. FOLLOW PEPSI.
       </h1>
-      <div className="social flex border-solid border-blue-700 border-2 w-[90%] h-auto m-auto mt-10">
+      <div className="social flex border-solid border-blue-700 border-[3px] w-[90%] h-auto m-auto mt-10">
         <div className="social-item instagram-link relative">
           <a
             href="https://www.instagram.com/pepsi"
@@ -71,7 +71,7 @@ function Stayconnected() {
             />
           </a>
         </div>
-        <div className="social-item relative">
+        <div className="social-item youtube-link relative">
           <a
             href="https://www.youtube.com/user/Pepsi"
             target="_blank"
@@ -91,7 +91,7 @@ function Stayconnected() {
             />
           </a>
         </div>
-        <div className="social-item relative">
+        <div className="social-item tiktok-link relative">
           <a
             href="https://www.tiktok.com/@pepsi"
             target="_blank"
@@ -111,7 +111,7 @@ function Stayconnected() {
             />
           </a>
         </div>
-        <div className="social-item relative">
+        <div className="social-item thread-link relative">
           <a
             href="https://www.threads.net/@pepsi"
             target="_blank"

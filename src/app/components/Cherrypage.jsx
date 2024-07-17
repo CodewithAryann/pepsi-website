@@ -10,7 +10,7 @@ function Cherrypage() {
       className='w-full h-[75vw] cherry-section'
     >
       <img
-        className='mt-10 cherry-img'
+        className='mt-10 '
         src='https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/get-wild-with-pepsi-wild-cherry-tab-vert@2x.png'
         alt=''
       />
