@@ -137,7 +137,37 @@ function Nav() {
             <p className="mt-2 text-center font-bold">Pepsi Zero Sugar Wild Cherry</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
-                src="https://www.pepsi.com/en-us/refresh082123/images/cans/44343_EC_Front.png"
+                src="https://www.pepsi.com/en-us/refresh082123/images/cans/44346_Titan_PZWC_Can_12oz_FR.png"
+                alt="Pepsi Zero Sugar Wild Cherry"
+                className="absolute inset-0 h-full object-cover w-[50%]"
+              />
+            </div>
+          </div>
+          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+            <p className="mt-2 text-center font-bold">Pepsi Caffeine Free</p>
+            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
+              <img
+                src="https://www.pepsi.com/en-us/refresh082123/images/cans/44337_Titan_CFP_Can_12oz_FR.png"
+                alt="Pepsi Zero Sugar Wild Cherry"
+                className="absolute inset-0 h-full object-cover w-[50%]"
+              />
+            </div>
+          </div>
+          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+            <p className="mt-2 text-center font-bold">Diet Pepsi Caffeine Free</p>
+            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
+              <img
+                src="https://www.pepsi.com/en-us/refresh082123/images/cans/44336_Titan_CFDP_Can_12oz_FR.png"
+                alt="Pepsi Zero Sugar Wild Cherry"
+                className="absolute inset-0 h-full object-cover w-[50%]"
+              />
+            </div>
+          </div>
+          <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
+            <p className="mt-2 text-center font-bold">Pepsi Real Sugar</p>
+            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
+              <img
+                src="https://www.pepsi.com/en-us/refresh082123/images/cans/44346_Titan_PZWC_Can_12oz_FR.png"
                 alt="Pepsi Zero Sugar Wild Cherry"
                 className="absolute inset-0 h-full object-cover w-[50%]"
               />
