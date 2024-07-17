@@ -5,6 +5,7 @@ import Secondpage from './components/Secondpage'
 import Cherrypage from './components/Cherrypage'
 import Videopage from './components/Videopage'
 import Stayconnected from './components/Stayconnected'
+import Footer from './components/Footer'
 
 function page() {
   return (
@@ -15,6 +16,7 @@ function page() {
       <Cherrypage/>
       <Videopage/>
       <Stayconnected/>
+      <Footer/>
     
 
     </div>
