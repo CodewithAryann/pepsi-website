@@ -82,24 +82,24 @@ function Footer() {
             </ul>
             <div class="footer__container-right">
                <div class="footer__social-container">
-                  <a class="footer__social-link" href="https://www.instagram.com/pepsi" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Instagram, opens a in new tab" data-gtm-label="Instagram">
+                  <a style={{padding:'0 0.75em'}} class="footer__social-link" href="https://www.instagram.com/pepsi" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Instagram, opens a in new tab" data-gtm-label="Instagram">
                   <img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg?mtime=20180110134805" alt="instagram icon"></img>
                   </a>
-                  <a class="footer__social-link" href="https://twitter.com/pepsi" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Twitter, opens a in new tab" data-gtm-label="Twitter">
+                  <a style={{padding:'0 0.75em'}} class="footer__social-link" href="https://twitter.com/pepsi" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Twitter, opens a in new tab" data-gtm-label="Twitter">
                      <img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-x.svg" alt="twitter icon"></img>
                   </a>
-                  <a class="footer__social-link" href="https://www.facebook.com/PepsiUS" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Facebook, opens a in new tab" data-gtm-label="Facebook">
+                  <a style={{padding:'0 0.75em'}} class="footer__social-link" href="https://www.facebook.com/PepsiUS" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Facebook, opens a in new tab" data-gtm-label="Facebook">
                      <img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg?mtime=20180110134803" alt="facebook icon"></img>
                   </a>
-                  <a class="footer__social-link" href="https://www.youtube.com/user/Pepsi" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Youtube, opens a in new tab" data-gtm-label="Youtube">
+                  <a style={{padding:'0 0.75em'}} class="footer__social-link" href="https://www.youtube.com/user/Pepsi" target="_blank" data-gtm-category="Footer" data-gtm-action="CTA" aria-label="Youtube, opens a in new tab" data-gtm-label="Youtube">
                      <img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-youtube.svg?mtime=20180110134811" alt="youtube icon"></img>
                   </a>
 
-                  <a class="footer__social-link" href="https://www.tiktok.com/@pepsi" target="_blank" data-gtm-category="TikTok" data-gtm-action="CTA" aria-label="TikTok, opens a in new tab" data-gtm-label="TikTok">
+                  <a style={{padding:'0 0.75em'}} class="footer__social-link" href="https://www.tiktok.com/@pepsi" target="_blank" data-gtm-category="TikTok" data-gtm-action="CTA" aria-label="TikTok, opens a in new tab" data-gtm-label="TikTok">
                   <img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-tiktok.svg" alt="tiktok icon"></img>
                   </a>
 
-                  <a class="footer__social-link" href="https://www.threads.net/@pepsi" target="_blank" data-gtm-category="Threads" data-gtm-action="CTA" aria-label="Threads, opens a in new tab" data-gtm-label="Threads">
+                  <a style={{padding:'0 0.75em'}} class="footer__social-link" href="https://www.threads.net/@pepsi" target="_blank" data-gtm-category="Threads" data-gtm-action="CTA" aria-label="Threads, opens a in new tab" data-gtm-label="Threads">
                   <img src="https://www.pepsi.com/en-us/refresh082123/images/social/icon-threads.svg" alt="tiktok icon"></img>
                   </a>
                </div>
