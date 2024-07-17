@@ -42,7 +42,7 @@ function Nav() {
       >
         <button onClick={toggleProducts} className='absolute top-4 right-4 text-white font-bold'>Close</button>
         <h1 className="absolute top-8 text-white text-3xl font-bold">Pepsi Products</h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8 w-full mt-[42vw]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8 w-full mt-[60vw]">
           <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Pepsi</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
@@ -85,11 +85,11 @@ function Nav() {
           </div>
           <div className="hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
             <p className="mt-2 text-center font-bold">Nitro Pepsi</p>
-            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
+            <div className="relative overflow-hidden h-[23vw] top-[11%] left-[27%]">
               <img
                 src="https://www.pepsi.com/en-us/refresh082123/images/cans/Nitro_Can_for_4pk_Cart_FD.png"
                 alt="Nitro Pepsi"
-                className="absolute inset-0 h-full object-cover w-[50%]"
+                className="absolute inset-0 h-full object-cover w-[44%]"
               />
             </div>
           </div>
@@ -167,7 +167,7 @@ function Nav() {
             <p className="mt-2 text-center font-bold">Pepsi Real Sugar</p>
             <div className="relative overflow-hidden h-[23vw] top-[11%] left-[24%]">
               <img
-                src="https://www.pepsi.com/en-us/refresh082123/images/cans/44346_Titan_PZWC_Can_12oz_FR.png"
+                src="https://www.pepsi.com/en-us/refresh082123/images/cans/46948-titan-prs-can-12-oz-d-1-fr.png"
                 alt="Pepsi Zero Sugar Wild Cherry"
                 className="absolute inset-0 h-full object-cover w-[50%]"
               />
