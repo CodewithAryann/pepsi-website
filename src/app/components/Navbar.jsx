@@ -37,7 +37,7 @@ function Nav() {
       </nav>
       <div 
         ref={productsRef} 
-        className={`fixed top-0 left-0 w-full h-full bg-[#0025ff] text-white flex flex-col justify-center items-center z-50 ${showProducts ? 'flex' : 'hidden'}`}
+        className={` top-0 left-0 w-full h-full bg-[#0025ff] text-white flex flex-col justify-center items-center z-50 ${showProducts ? 'flex' : 'hidden'}`}
       >
         <button onClick={toggleProducts} className='absolute top-4 right-4 text-white font-bold'>Close</button>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8">
