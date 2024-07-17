@@ -52,7 +52,6 @@ function Nav() {
                 alt="Pepsi"
                 className="absolute inset-0 h-full object-cover w-[50%]"
               />
-              
             </div>
           </div>
           <div className="item hover:bg-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-[19vw]">
